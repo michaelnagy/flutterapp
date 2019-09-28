@@ -16,11 +16,6 @@ class Home extends StatelessWidget {
   String sayHello() {
     String hello;
     DateTime now = new DateTime.now();
-    return "It's now" +
-        now.hour.toString() +
-        ":" +
-        now.minute.toString() +
-        "\n" +
-        hello;
+    return "It's now " + now.hour.toString() + ":" + now.minute.toString();
   }
 }
